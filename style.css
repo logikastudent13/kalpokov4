@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+    background-color:#BFA068;
+    color: white;
+    margin: 0;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    align-items:center;
+    background-color:black;
+    margin-bottom:blue;
+}
+
+.button {
+    background-color:aquamarine;
+    padding:15px;
+    font-weight:700;
+    font-size:24px;
+    color:black;
+    border-radius:10px;
+    text-decoration:none;
+}
+
+nav {
+    border-top:5px solid white;
+    border-bottom:5px solid white;
+    padding:25px 100px 25px 95px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight:400;
+    font-size:24px;
+    color:white;
+}
+
+h1 {
+font-weight:700;
+font-size:36px;
+text-align:center;
+color:white;
+margin-bottom:34px;
+margin-top:45;
+}
+
+p {
+    font-size: 20px;
+    font-weight:400;
+    color:white;
+}
+
+.info {
+   display:flex;
+   flex-wrap:wrap;
+   max-width:1100px;
+   margin:0 auto;
+}
+
+
+
+
+.article-but {
+    background-color:white;
+    padding:15px 45px 30px 45px;
+    width:400px;
+    margin:20px;
+    color:white;
+}
+
+footer {
+   
+}
+
+footer a {
+    
+}
+
+footer p {
+}
+.about{
+    max-width:1000px;
+    display:flex;
+    margin:0 auto;
+}
+.about li{
+    font-weight:400;
+    font-size:18px;
+    color:white;
+    margin-bottom:25px;
+}
+.about img{
+    border:5px solid white;
+    width:385px;
+    height:385px;
+    margin-left:30px;
+}
